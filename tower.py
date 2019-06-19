@@ -113,7 +113,6 @@ class BlueTower(Tower):
     def __init__(self, row, col, board, cellDim):
         super().__init__(row, col, board, cellDim)
         self.color = "#0080FF"
-        self.cost = 15
-        self.shotSpeed = 1.6
-        self.radius = 90
-        self.shotDamage = 3
+        self.radius = 65
+        self.slowDown = True
+        self.cost = 20
